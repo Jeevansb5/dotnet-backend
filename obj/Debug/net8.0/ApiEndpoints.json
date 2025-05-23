@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "OracleJwtApiFull.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/User/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "OracleJwtApiFull.DTOs.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OracleJwtApiFull.Controllers.UserController",
+    "Method": "Me",
+    "RelativePath": "api/User/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OracleJwtApiFull.Controllers.UserController",
+    "Method": "Register",
+    "RelativePath": "api/User/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "OracleJwtApiFull.DTOs.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OracleJwtApiFull.Controllers.UserController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/User/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "OracleJwtApiFull.DTOs.UpdateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

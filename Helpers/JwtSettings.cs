@@ -1,0 +1,1 @@
+// JWT settings class
