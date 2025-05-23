@@ -1,9 +1,14 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Controllers",
+    "\\DTOs",
+    "\\Models",
+    "\\Repositories",
     "\\Repositories\\Interfaces",
+    "\\Services",
     "\\Services\\Interfaces"
   ],
-  "SelectedNode": "\\Models",
+  "SelectedNode": "\\Repositories\\Interfaces\\IWalletRepository.cs",
   "PreviewInSolutionExplorer": false
 }

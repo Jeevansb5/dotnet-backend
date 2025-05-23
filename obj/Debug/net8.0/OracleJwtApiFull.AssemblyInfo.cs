@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OracleJwtApiFull")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b69b7c0b4f8661e5b0a0d63d0ca79379486a61d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1684c94d187e393e8c812610a2f3b04f2e6fa05")]
 [assembly: System.Reflection.AssemblyProductAttribute("OracleJwtApiFull")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OracleJwtApiFull")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
