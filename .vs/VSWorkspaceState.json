@@ -3,12 +3,14 @@
     "",
     "\\Controllers",
     "\\DTOs",
+    "\\Middleware",
+    "\\Migrations",
     "\\Models",
     "\\Repositories",
     "\\Repositories\\Interfaces",
     "\\Services",
     "\\Services\\Interfaces"
   ],
-  "SelectedNode": "\\Repositories\\Interfaces\\IWalletRepository.cs",
+  "SelectedNode": "\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

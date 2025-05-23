@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\dotnet-backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\dotnet-backend\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\dotnet-backend\\Services\\Interfaces\\IAirportService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interfaces\\IAirportService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\dotnet-backend\\Services\\AirportService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\AirportService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\dotnet-backend\\Repositories\\AirportRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\AirportRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\dotnet-backend\\Repositories\\Interfaces\\IAirportRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\Interfaces\\IAirportRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\dotnet-backend\\Models\\Airport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Airport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\dotnet-backend\\DTOs\\AirportDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\AirportDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\dotnet-backend\\Controllers\\AirportController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\AirportController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\dotnet-backend\\Models\\Wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,6 +59,110 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\dotnet-backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\admin\\dotnet-backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:05:32.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Airport.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\dotnet-backend\\Models\\Airport.cs",
+              "RelativeDocumentMoniker": "Models\\Airport.cs",
+              "ToolTip": "C:\\Users\\admin\\dotnet-backend\\Models\\Airport.cs",
+              "RelativeToolTip": "Models\\Airport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:04:29.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AirportDto.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\dotnet-backend\\DTOs\\AirportDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AirportDto.cs",
+              "ToolTip": "C:\\Users\\admin\\dotnet-backend\\DTOs\\AirportDto.cs",
+              "RelativeToolTip": "DTOs\\AirportDto.cs",
+              "ViewState": "AgIAAAAAAAAAMzMzM7MSwAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:03:33.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAirportRepository.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\dotnet-backend\\Repositories\\Interfaces\\IAirportRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IAirportRepository.cs",
+              "ToolTip": "C:\\Users\\admin\\dotnet-backend\\Repositories\\Interfaces\\IAirportRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IAirportRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:02:36.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AirportRepository.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\dotnet-backend\\Repositories\\AirportRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\AirportRepository.cs",
+              "ToolTip": "C:\\Users\\admin\\dotnet-backend\\Repositories\\AirportRepository.cs",
+              "RelativeToolTip": "Repositories\\AirportRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:01:51.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AirportService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\dotnet-backend\\Services\\AirportService.cs",
+              "RelativeDocumentMoniker": "Services\\AirportService.cs",
+              "ToolTip": "C:\\Users\\admin\\dotnet-backend\\Services\\AirportService.cs",
+              "RelativeToolTip": "Services\\AirportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:01:01.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAirportService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\dotnet-backend\\Services\\Interfaces\\IAirportService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAirportService.cs",
+              "ToolTip": "C:\\Users\\admin\\dotnet-backend\\Services\\Interfaces\\IAirportService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAirportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:00:26.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AirportController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\dotnet-backend\\Controllers\\AirportController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AirportController.cs",
+              "ToolTip": "C:\\Users\\admin\\dotnet-backend\\Controllers\\AirportController.cs",
+              "RelativeToolTip": "Controllers\\AirportController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T10:59:23.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Wallet.cs",
               "DocumentMoniker": "C:\\Users\\admin\\dotnet-backend\\Models\\Wallet.cs",
               "RelativeDocumentMoniker": "Models\\Wallet.cs",
@@ -39,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Flight.cs",
               "DocumentMoniker": "C:\\Users\\admin\\dotnet-backend\\Models\\Flight.cs",
               "RelativeDocumentMoniker": "Models\\Flight.cs",
@@ -47,12 +183,11 @@
               "RelativeToolTip": "Models\\Flight.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T09:05:24.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T09:05:24.273Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\admin\\dotnet-backend\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
