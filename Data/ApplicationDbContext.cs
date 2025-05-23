@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using OracleJwtApiFull.Models;
 
 namespace OracleJwtApiFull.Data
@@ -24,7 +24,7 @@ namespace OracleJwtApiFull.Data
             base.OnModelCreating(modelBuilder);
 
             // USER TABLE
-            modelBuilder.Entity<User>().ToTable("USERS");
+            modelBuilder.Entity<User>().ToTable("USERS", schema: "SYSTEM");
             modelBuilder.Entity<User>(entity =>
             {
                 entity.Property(u => u.Id).HasColumnName("ID");
@@ -66,10 +66,12 @@ namespace OracleJwtApiFull.Data
             });
 
             // FLIGHT TABLE
+            // FLIGHT TABLE
             modelBuilder.Entity<Flight>().ToTable("FLIGHTS");
             modelBuilder.Entity<Flight>(entity =>
             {
-                entity.Property(f => f.FlightId).HasColumnName("FLIGHT_ID");
+                entity.Property(f => f.FlightId).HasColumnName("FLIGHT_" +
+                    "ID");
                 entity.Property(f => f.FlightNumber).HasColumnName("FLIGHT_NUMBER").HasMaxLength(10).IsRequired();
                 entity.Property(f => f.AirplaneId).HasColumnName("AIRPLANE_ID").IsRequired();
                 entity.Property(f => f.OriginAirportId).HasColumnName("ORIGIN_AIRPORT_ID").IsRequired();
@@ -77,9 +79,16 @@ namespace OracleJwtApiFull.Data
                 entity.Property(f => f.DepartureTime).HasColumnName("DEPARTURE_TIME").HasColumnType("TIMESTAMP").IsRequired();
                 entity.Property(f => f.ArrivalTime).HasColumnName("ARRIVAL_TIME").HasColumnType("TIMESTAMP").IsRequired();
                 entity.Property(f => f.Duration).HasColumnName("DURATION").HasMaxLength(20);
+
                 entity.Property(f => f.AvailableEconomySeats).HasColumnName("AVAILABLE_ECONOMY_SEATS").IsRequired();
                 entity.Property(f => f.AvailableBusinessSeats).HasColumnName("AVAILABLE_BUSINESS_SEATS").IsRequired();
                 entity.Property(f => f.AvailableFirstClassSeats).HasColumnName("AVAILABLE_FIRST_CLASS_SEATS").IsRequired();
+
+                // 👇 Add Price Fields
+                entity.Property(f => f.EconomyPrice).HasColumnName("ECONOMY_PRICE").HasColumnType("DECIMAL(10,2)").IsRequired();
+                entity.Property(f => f.BusinessPrice).HasColumnName("BUSINESS_PRICE").HasColumnType("DECIMAL(10,2)").IsRequired();
+                entity.Property(f => f.FirstClassPrice).HasColumnName("FIRST_CLASS_PRICE").HasColumnType("DECIMAL(10,2)").IsRequired();
+
                 entity.Property(f => f.CreatedAt).HasColumnName("CREATED_AT").HasColumnType("TIMESTAMP").IsRequired();
                 entity.Property(f => f.UpdatedAt).HasColumnName("UPDATED_AT").HasColumnType("TIMESTAMP").IsRequired(false);
 
@@ -99,6 +108,7 @@ namespace OracleJwtApiFull.Data
                     .HasForeignKey(f => f.DestinationAirportId)
                     .OnDelete(DeleteBehavior.Restrict);
             });
+
 
             // WALLET TABLE
             modelBuilder.Entity<Wallet>().ToTable("WALLETS");

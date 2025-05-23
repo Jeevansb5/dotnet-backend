@@ -42,7 +42,7 @@ namespace OracleJwtApiFull.Models
         public DateTime ArrivalTime { get; set; }
 
         [MaxLength(20)]
-        public string? Duration { get; set; }
+        public string Duration { get; set; }
 
         // 🎯 Seat Availability by Class
         [Required]
@@ -53,6 +53,19 @@ namespace OracleJwtApiFull.Models
 
         [Required]
         public int AvailableFirstClassSeats { get; set; }
+
+        // 💰 Prices by Class
+        [Required]
+        [Column(TypeName = "decimal(10,2)")]
+        public decimal EconomyPrice { get; set; }
+
+        [Required]
+        [Column(TypeName = "decimal(10,2)")]
+        public decimal BusinessPrice { get; set; }
+
+        [Required]
+        [Column(TypeName = "decimal(10,2)")]
+        public decimal FirstClassPrice { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime? UpdatedAt { get; set; }

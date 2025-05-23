@@ -1,16 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Controllers",
-    "\\Data",
-    "\\DTOs",
-    "\\Models",
-    "\\Properties",
-    "\\Repositories",
     "\\Repositories\\Interfaces",
-    "\\Services",
     "\\Services\\Interfaces"
   ],
-  "SelectedNode": "\\Services",
+  "SelectedNode": "\\Models",
   "PreviewInSolutionExplorer": false
 }
